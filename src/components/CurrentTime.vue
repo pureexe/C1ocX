@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="clock">
     {{dateText}}
   </div>
 </template>
@@ -37,5 +37,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .clock{
+    font-size: 20vw;
+    text-align: center;
+    height: 100vh;
+    line-height: 100vh;
+  }
 </style>
